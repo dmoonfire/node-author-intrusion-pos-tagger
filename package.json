@@ -1,13 +1,13 @@
 {
-  "name": "node-author-intrusion-split",
+  "name": "node-author-intrusion-pos-tagger",
   "version": "0.0.0",
-  "description": "A processing plugin for Author Intrusion that splits and parses content in various manners.",
-  "homepage": "https://github.com/author-intrusion/node-author-intrusion-split",
+  "description": "A processing plugin for Author Intrusion that tags the tokens for parts of speech.",
+  "homepage": "https://github.com/author-intrusion/node-author-intrusion-pos-tagger",
   "author": "Dylan R. E. Moonfire",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/author-intrusion/node-author-intrusion-split.git"
+    "url": "git://github.com/author-intrusion/node-author-intrusion-pos-tagger.git"
   },
   "main": "dist/index.js",
   "scripts": {
@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "node-author-intrusion": "^0.1.0",
-    "natural": "^0.2.1"
+    "node-author-intrusion-split": "^0.1.0",
+    "pos": "^0.2.0"
   }
 }
