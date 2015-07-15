@@ -10,6 +10,9 @@
     },
     "jasmine/jasmine.d.ts": {
       "commit": "a9c59f8166b4d7f1e8c4309a506987c2e6d78b5e"
+    },
+    "pos/pos.d.ts": {
+      "commit": "6afbf3d47c8ac4771565f29fddbcfa7455fc1cb2"
     }
   }
 }
