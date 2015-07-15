@@ -33,6 +33,6 @@
         "src/index.ts",
         "src/refs.ts",
         "src/specs/environment-spec.ts",
-        "src/specs/tokens-spec.ts"
+        "src/specs/pos-spec.ts"
     ]
 }
