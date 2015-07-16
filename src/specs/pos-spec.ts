@@ -67,5 +67,6 @@ describe("lines", function() {
         expect(line.tokens[7].partOfSpeech).toBe("PRP");
         expect(line.tokens[8].partOfSpeech).toBe("JJ");
         expect(line.tokens[9].partOfSpeech).toBe(".");
+        expect(line.tokens[10]).toBe(undefined);
     });
 });
