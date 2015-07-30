@@ -1,0 +1,30 @@
+{
+  "name": "node-author-intrusion-pos-tagger",
+  "version": "0.0.0",
+  "description": "A processing plugin for Author Intrusion that tags the tokens for parts of speech.",
+  "homepage": "https://github.com/author-intrusion/node-author-intrusion-pos-tagger",
+  "author": "Dylan R. E. Moonfire",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/author-intrusion/node-author-intrusion-pos-tagger.git"
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "~0.1.9",
+    "grunt-jasmine-nodejs": "^1.4.2",
+    "grunt-ts": "^4.2.0-beta.1",
+    "jasmine": "^2.3.1",
+    "node-author-intrusion-split": "^0.1.0",
+    "typescript": "1.5.0-beta"
+  },
+  "dependencies": {
+    "node-author-intrusion": "^0.1.0",
+    "node-author-intrusion-split": "^0.1.0",
+    "pos": "^0.2.0"
+  }
+}
